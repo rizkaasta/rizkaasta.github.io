@@ -17,15 +17,25 @@
         text-align: center;
     }
     .collabright {
-        text-align: center;
+        margin: 0 auto;
     }
-
+    .collableft {
+        margin: 0 auto;
+    }
     .report {
         flex-direction: column;
         text-align: center;
     }
+    .reportleft {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .reportright {
+        margin: 0 auto;
+    }
     .btn {
         width: 100%;
+        margin: 10px auto;
     }
 }
 
