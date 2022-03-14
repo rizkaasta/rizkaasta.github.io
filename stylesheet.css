@@ -1,39 +1,66 @@
-@media (max-width: 1000px) {
-
+@media (max-width:1000px) {
+    .img {
+        margin-top: 20%;
+        width: 100%;
+    }
+    .collableft {
+        width: 90%;
+    }
+    .reportright {
+        width: 90%;
+    }
 }
 
-@media (max-width: 670px) {
+@media (max-width:670px) {
+    .collab {
+        flex-direction: column;
+        text-align: center;
+    }
+    .collabright {
+        text-align: center;
+    }
 
+    .report {
+        flex-direction: column;
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .collab {
     display: flex;
-    margin: 30px 100px;
-}
-
-.collabright {
-    width: 40%;
-    margin: 30px 200px;
-}
-
-.collableft {
-    width: 40%;
+    margin-top: 30px;
 }
 
 .report {
     display: flex;
-    margin: 100px 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.reportright {
-    width: 40%;
-    margin-left: 50px;
-    margin-top: -50px;
+img {
+    width: 90%;
+}
+
+.collabright {
+    width: 80%;
 }
 
 .reportleft {
-    width: 40%;
-    margin-left: 50px;
+    width:80%;
 }
 
 .title-collab {
@@ -42,7 +69,7 @@
     padding: 0px 10px ;
     border-radius: 10px;
     height: 30px;
-    width: 100px;
+    width: 150px;
     text-align: center;
     line-height: 30px;
     color:darkorchid;
@@ -55,7 +82,7 @@
     padding: 0px 10px ;
     border-radius: 10px;
     height: 30px;
-    width: 80px;
+    width: 100px;
     text-align: center;
     line-height: 30px;
     color:darkorchid;
@@ -80,7 +107,7 @@
 }
 
 .content p {
-    color: darkgray;
+    color: rgb(116, 116, 126);
     margin-bottom: 20px;
     line-height: 23px;
 }
