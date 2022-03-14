@@ -1,0 +1,78 @@
+.collab {
+    display: flex;
+    margin: 30px 90px;
+}
+
+.collabright {
+    width: 35%;
+    margin: 30px 200px
+}
+
+.collableft {
+    width: 35%;
+}
+
+.report {
+    display: flex;
+    margin: 100px 100px;
+}
+
+.reportright {
+    width: 35%;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.reportleft {
+    width: 35%;
+    margin-left: 50px;
+}
+
+.title-collab {
+    background-color:rgb(243, 225, 243);
+    display: block;
+    padding: 0px 10px ;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    color:darkorchid;
+    font-weight: bold;
+}
+
+.title-report {
+    background-color:rgb(243, 225, 243);
+    display: block;
+    padding: 0px 10px ;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    color:darkorchid;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: darkorchid;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(199, 28, 199);
+}
+
+.btn a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content p {
+    color: darkgray;
+    margin-bottom: 20px;
+    line-height: 23px;
+}
