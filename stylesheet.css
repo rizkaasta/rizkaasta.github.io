@@ -1,15 +1,23 @@
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 670px) {
+
+}
+
 .collab {
     display: flex;
-    margin: 30px 90px;
+    margin: 30px 100px;
 }
 
 .collabright {
-    width: 35%;
-    margin: 30px 200px
+    width: 40%;
+    margin: 30px 200px;
 }
 
 .collableft {
-    width: 35%;
+    width: 40%;
 }
 
 .report {
@@ -18,13 +26,13 @@
 }
 
 .reportright {
-    width: 35%;
+    width: 40%;
     margin-left: 50px;
     margin-top: -50px;
 }
 
 .reportleft {
-    width: 35%;
+    width: 40%;
     margin-left: 50px;
 }
 
